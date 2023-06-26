@@ -1,0 +1,19 @@
+.likes {
+  cursor: pointer;
+}
+.footer-text {
+  font-size: 1.5rem;
+}
+.modal-dialog {
+  max-width: 60%;
+}
+
+.modal-content {
+  width: 100%;
+}
+
+.closeIcon {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}

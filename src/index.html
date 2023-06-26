@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wbpack Exercise</title>
+</head>
+<body class="bg-light">
+    <header class="bg-light border-bottom border-1 p-3">
+        <nav class="navbar navbar-expand-md navbar-light bg-light container">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+              <ul class="navbar-nav w-50 justify-content-between">
+                <li class="nav-item active">
+                  <a class="nav-link h3" href="#">Shows<span id="show_conter"> (12)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link h3" href="#">Planets</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link h3" href="#">Races</a>
+                </li>
+                
+              </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <section id="shows">
+            <div class="row" id="showsList">
+                
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content modal-xl">
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-12 d-flex justify-content-center">
+                <img class=""  id="showImage" src="https://static.tvmaze.com/uploads/images/medium_portrait/81/202627.jpg" alt="">
+              </div>
+              <div class="col-md-1 closeIcon" id="closeIcon"><i class="fa-solid fa-xmark text-danger fa-2x d-flex justify-content-end"></i></div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 mt-2 d-flex justify-content-center">
+                <h2 id="showTitle">Under the Dome</h2>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-md-6 mt-2 d-flex justify-content-center">
+                <p class="bold-text" id="showLang">Language: English</p>
+              </div>
+              <div class="col-md-6 mt-2 d-flex justify-content-center">
+                <p class="bold-text"  id="showType">Type: Scripted</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mt-2 d-flex justify-content-center">
+                <p class="bold-text"  id="showPremiered">Premiered: 2013-06-24</p>
+              </div>
+              <div class="col-md-6 mt-2 d-flex justify-content-center">
+                <p class="bold-text"  id="showEnd">Ended: 2015-09-10</p>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-md-12 d-flex justify-content-center">
+                <h3>Comments (<span id="commentCounter">4</span>)</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12" id="commentList"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 d-flex justify-content-center">
+                <h3>Add Comments</h3>
+              </div>
+            </div>
+            <div class="row mt-3 mb-3">
+              <div class="col-md-12 d-flex justify-content-center" id="formDiv">
+                
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <footer class="footer bg-light border-top border-black border-2 mt-5">
+      <div class="containe p-4">
+        <span class="footer-text">Created by Microverse under CC License.</span>
+      </div>
+    </footer>
+</body>
+</html>
